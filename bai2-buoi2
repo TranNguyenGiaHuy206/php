@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+    $a=array("Tokyo", "Mexico City", "New York City", "Mumbai", "Seoul", "Shanghai", "Lagos", "Buenos Aires", "Cairo", "London.");
+    for($i=0;$i<count(value:$a);$i++){
+        echo $a[$i];
+        if($i<count(value:$a)-1){
+        echo(",");
+        }
+    }
+    echo"<hr>";
+    sort($a);
+    echo"<ul>";
+        foreach($a as $b);
+        echo "<li>$b<li>";
+        echo"<ul>";
+        echo"<hr>";
+        array_push($a,"Los Angeles", "Calcutta", "Osaka", "Beijing.");
+    ?>
+</body>
+</html>
