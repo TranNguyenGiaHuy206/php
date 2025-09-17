@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Nhap Thong Tin Sinh Vien</h1>
+    <form action="info.php" method="get">
+        <label for =" ">MSSV</label>
+        <input type ="text" name="MSSV" id=" ">
+        <br>
+        <label for =" ">Ho Ten</label>
+        <input type ="text" name="Ho Ten" id=" ">
+        <br>
+        <label for =" ">Gioi Tinh</label>
+        Nam<input type ="radio" name="Gioi Tinh" id=" " value="0" checked>
+        Nu<input type ="radio" name="Gioi Tinh" id=" " value="1" >
+        <br>
+        <label for =" ">Ngon Ngu</label>
+        C++<input type ="checkbox" name="lang1" id=" " value="c" >
+        PHP<input type ="checkbox" name="lang2" id=" " value="php" >
+        <br>
+        Thanh Pho:
+        <select name="thanhpho">
+            <option value="hn">Ha Noi</option>
+            <option value="hcm">Ho Chi Minh</option>
+            <option value="dn">Da Nang</option>
+        </select> <br>
+        <label for=" ">Tinh Nhan:</label>
+        <br>
+        <textarea rows="5" cols="30" name="tinhnhan"></textarea><br>
+        <button type="submit">Gui</button>
+    </form>
+</body>
+</html>
